@@ -4,6 +4,7 @@ Priority: required
 Maintainer: Merlijn Wajer <merlijn@wizzup.org>
 Build-Depends: debhelper-compat (= 12),
     autoconf-archive,
+    pkg-config,
 Standards-Version: 4.3.0
 
 Package: pulsecore-dev
