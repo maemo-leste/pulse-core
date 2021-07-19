@@ -1,0 +1,1 @@
+To rebuild this, fetch the latest pulseaudio source package on Debian, and copy over all the pulsecore include files, and update Makefile.am accordingly.

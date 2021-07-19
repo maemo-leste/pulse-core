@@ -1,0 +1,15 @@
+Source: pulsecore-dev
+Section: libs
+Priority: required
+Maintainer: Merlijn Wajer <merlijn@wizzup.org>
+Build-Depends: debhelper-compat (= 12)
+Standards-Version: 4.3.0
+
+Package: pulsecore-dev
+Section: libs
+Priority: required
+Architecture: any
+Depends:
+    pulseaudio (>= 12.2),
+    pulseaudio (<< 13.0),
+Description: Development headers for building pulseaudio modules (upstream does not support this, so a separate package is required)
