@@ -2,7 +2,8 @@ Source: pulsecore-dev
 Section: libs
 Priority: required
 Maintainer: Merlijn Wajer <merlijn@wizzup.org>
-Build-Depends: debhelper-compat (= 12)
+Build-Depends: debhelper-compat (= 12),
+    autoconf-archive,
 Standards-Version: 4.3.0
 
 Package: pulsecore-dev
