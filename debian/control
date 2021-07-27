@@ -15,4 +15,6 @@ Architecture: any
 Depends:
     pulseaudio (>= 12.2),
     pulseaudio (<< 13.0),
+    libltdl-dev,
+    libasound2-dev,
 Description: Development headers for building pulseaudio modules (upstream does not support this, so a separate package is required)
