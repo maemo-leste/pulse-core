@@ -17,6 +17,7 @@ Depends:
     pulseaudio (<< 13.0),
     libltdl-dev,
     libasound2-dev,
+    libatomic-ops-dev,
     ${shlibs:Depends},
     ${misc:Depends},
 Description: Development headers for building pulseaudio modules (upstream does not support this, so a separate package is required)
